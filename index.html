@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <title>Bhargavi Thentu | Portfolio</title>
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress-container">
+      <div class="scroll-progress-bar" id="scroll-bar"></div>
+    </div>
+
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <a href="#home" class="logo">Bhargavi.<span>T</span></a>
+        <nav class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Home Section -->
+      <section id="home" class="hero">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <h2 class="greeting fade-in">Hello, I'm</h2>
+            <h1 class="name fade-in" style="animation-delay: 0.1s">Bhargavi Thentu</h1>
+            <h3 class="role fade-in" style="animation-delay: 0.2s">Aspiring Software Developer | AI/ML & Web Development Enthusiast</h3>
+            <p class="bio-short fade-in" style="animation-delay: 0.3s">
+              Pre-final year IT student passionate about building intelligent and scalable solutions. 
+              Skilled in AI/ML, Web Development, and Cloud basics, aiming to secure impactful 
+              internship or job opportunities.
+            </p>
+            <div class="hero-cta fade-in" style="animation-delay: 0.4s">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+          </div>
+          <div class="hero-image fade-in" style="animation-delay: 0.5s">
+            <div class="image-wrapper">
+              <!-- Placeholder for profile image, you can replace with a real image later -->
+              <img src="https://ui-avatars.com/api/?name=Bhargavi+Thentu&size=500&background=0a0a0a&color=00f0ff&font-size=0.33" alt="Bhargavi Thentu" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section">
+        <div class="container">
+          <h2 class="section-title fade-in">About Me</h2>
+          <div class="about-content fade-in">
+            <div class="about-text">
+              <p>
+                I am a pre-final year Information Technology student with a strong drive to learn and innovate. 
+                My journey in tech is fueled by a fascination with Artificial Intelligence, Machine Learning, and creating 
+                seamless web experiences. I love bridging the gap between intelligent backend logic and user-friendly 
+                frontend interfaces.
+              </p>
+              <p>
+                <strong>Career Goal:</strong> Seeking internship or full-time roles in software development, AI/ML, 
+                or web development where I can apply my skills to real-world challenges, continue to grow as an engineer, 
+                and bring value to impactful projects.
+              </p>
+            </div>
+            <div class="education-card glass-card">
+              <h3>Education</h3>
+              <div class="edu-item">
+                <h4>Bachelor of Technology (Information Technology)</h4>
+                <p class="institution">Vignan’s Institute of Information Technology</p>
+                <p class="date">Expected Graduation: 2027</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section bg-alt">
+        <div class="container">
+          <h2 class="section-title fade-in">Technical Skills</h2>
+          <div class="skills-grid fade-in">
+            <div class="skill-category glass-card">
+              <h3>Programming Languages</h3>
+              <div class="skill-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Java</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+            <div class="skill-category glass-card">
+              <h3>Backend & APIs</h3>
+              <div class="skill-tags">
+                <span class="tag">REST APIs</span>
+                <span class="tag">Flask</span>
+              </div>
+            </div>
+            <div class="skill-category glass-card">
+              <h3>Cloud & DevOps</h3>
+              <div class="skill-tags">
+                <span class="tag">AWS (EC2, S3)</span>
+                <span class="tag">Cloud Computing Basics</span>
+              </div>
+            </div>
+            <div class="skill-category glass-card">
+              <h3>Databases & Tools</h3>
+              <div class="skill-tags">
+                <span class="tag">MySQL</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Excel</span>
+                <span class="tag">PowerPoint</span>
+              </div>
+            </div>
+            <div class="skill-category glass-card">
+              <h3>AI/ML</h3>
+              <div class="skill-tags">
+                <span class="tag">Pandas</span>
+                <span class="tag">NLP</span>
+                <span class="tag">Data Preprocessing</span>
+              </div>
+            </div>
+            <div class="skill-category glass-card">
+              <h3>Platforms & Tools</h3>
+              <div class="skill-tags">
+                <span class="tag">VS Code</span>
+                <span class="tag">Jupyter Notebook</span>
+                <span class="tag">PyCharm</span>
+                <span class="tag">GitHub</span>
+              </div>
+            </div>
+            <div class="skill-category glass-card" style="grid-column: 1 / -1;">
+              <h3>Soft Skills</h3>
+              <div class="skill-tags">
+                <span class="tag">Communication</span>
+                <span class="tag">Problem Solving</span>
+                <span class="tag">Team Collaboration</span>
+                <span class="tag">Hackathon Experience</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section">
+        <div class="container">
+          <h2 class="section-title fade-in">Featured Projects</h2>
+          <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card glass-card fade-in">
+              <div class="project-info">
+                <h3>Skill Bridge AI</h3>
+                <p>AI-based platform to map user skills with industry requirements. Utilizes ML models for skill gap analysis and personalized recommendations to drive a data-driven matching system for opportunities.</p>
+                <div class="project-tech">
+                  <span class="tag tech-tag">Python</span>
+                  <span class="tag tech-tag">Machine Learning</span>
+                  <span class="tag tech-tag">Data Preprocessing</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/bhargavithentu28/skillbridge-ai" target="_blank" class="btn btn-outline btn-small">GitHub</a>
+                </div>
+              </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card glass-card fade-in" style="animation-delay: 0.1s">
+              <div class="project-info">
+                <h3>Sentinel AI</h3>
+                <p>Mobile security system capable of detecting phishing, fake apps, and OTP malware. Employs real-time behavior analysis and fraud prevention algorithms to keep users safe.</p>
+                <div class="project-tech">
+                  <span class="tag tech-tag">Python</span>
+                  <span class="tag tech-tag">AI/ML</span>
+                  <span class="tag tech-tag">Security</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="btn btn-outline btn-small">GitHub</a>
+                </div>
+              </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card glass-card fade-in" style="animation-delay: 0.2s">
+              <div class="project-info">
+                <h3>AgriRent</h3>
+                <p>Full-stack web platform for renting agricultural equipment. Features user authentication, a comprehensive booking system, location-based search, and an integrated messaging service.</p>
+                <div class="project-tech">
+                  <span class="tag tech-tag">Full-Stack Web</span>
+                  <span class="tag tech-tag">MySQL</span>
+                  <span class="tag tech-tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/bhargavithentu28/Grama-rental" target="_blank" class="btn btn-outline btn-small">GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience" class="section bg-alt">
+        <div class="container">
+          <h2 class="section-title fade-in">Experience</h2>
+          <div class="timeline fade-in">
+            <div class="timeline-item glass-card">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Web Development Intern</h3>
+                <h4 class="company">Infotact Solutions</h4>
+                <p class="date">Duration - Present</p>
+                <p class="desc">
+                  Focused on practical exposure and skill application in real-world environments. Worked on building responsive UI components, integrating backend functionality, and applying modern web development best practices to deliver efficient user experiences.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="services" class="section">
+        <div class="container">
+          <h2 class="section-title fade-in">Services</h2>
+          <div class="services-grid fade-in">
+            <div class="service-card glass-card">
+              <div class="service-icon">🌐</div>
+              <h3>Web Development</h3>
+              <p>Creating responsive, accessible, and highly optimized websites tailored to user needs.</p>
+            </div>
+            <div class="service-card glass-card">
+              <div class="service-icon">💻</div>
+              <h3>Basic Full-Stack</h3>
+              <p>Developing end-to-end applications connecting robust backends with dynamic frontends.</p>
+            </div>
+            <div class="service-card glass-card">
+              <div class="service-icon">🔌</div>
+              <h3>API Integration</h3>
+              <p>Building and consuming REST APIs to connect services and enable seamless data flow.</p>
+            </div>
+            <div class="service-card glass-card">
+              <div class="service-icon">🤖</div>
+              <h3>AI/ML Solutions</h3>
+              <p>Designing beginner-level machine learning models and data preprocessing pipelines.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section bg-alt">
+        <div class="container">
+          <h2 class="section-title fade-in">Get In Touch</h2>
+          <div class="contact-content">
+            <div class="contact-info fade-in">
+              <h3>Let's build something amazing!</h3>
+              <p>I am currently looking for internship and job opportunities. Whether you have a question or just want to say hi, feel free to reach out!</p>
+              
+              <div class="contact-details">
+                <p>📧 <a href="mailto:bhargavithentu28@gmail.com">bhargavithentu28@gmail.com</a></p>
+                <p>📞 <a href="tel:6301131690">6301131690</a></p>
+              </div>
+
+              <div class="social-links">
+                <a href="https://www.linkedin.com/in/bhargavi-thentu-7b5b8b327" target="_blank" class="social-icon">LinkedIn</a>
+                <a href="https://github.com/bhargavithentu28" target="_blank" class="social-icon">GitHub</a>
+              </div>
+            </div>
+            <form id="contact-form" class="contact-form glass-card fade-in" style="animation-delay: 0.2s">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" required placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required placeholder="your.email@example.com">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" required placeholder="Your message here..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-content">
+        <p>&copy; <span id="year"></span> Bhargavi Thentu. All rights reserved.</p>
+        <a href="#home" class="scroll-top" aria-label="Scroll to top">↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
