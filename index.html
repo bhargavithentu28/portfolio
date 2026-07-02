@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark" data-house="hogwarts">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Google Fonts -->
+    <!-- Google Fonts for Harry Potter Theme -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
-    <title>Bhargavi Thentu | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@400;600;700;800&family=EB+Garamond:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <title>Bhargavi Thentu | Tech Alchemist</title>
     <script type="module" src="/src/main.js"></script>
   </head>
   <body>
@@ -20,16 +20,25 @@
     <!-- Navbar -->
     <header class="navbar">
       <div class="container nav-container">
-        <a href="#home" class="logo">Bhargavi.<span>T</span></a>
+        <a href="#home" class="logo">Bhargavi.<span>🪄</span></a>
         <nav class="nav-links">
           <a href="#home">Home</a>
           <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#experience">Experience</a>
-          <a href="#services">Services</a>
-          <a href="#contact">Contact</a>
+          <a href="#skills">Spellbook</a>
+          <a href="#projects">Artifacts</a>
+          <a href="#experience">Chronicles</a>
+          <a href="#services">Offerings</a>
+          <a href="#contact">Owl Post</a>
         </nav>
+        <div class="header-actions">
+          <button id="lumos-toggle" class="action-btn" aria-label="Toggle Lumos/Nox" title="Cast Lumos/Nox">
+            <span class="wand-tip">🪄</span>
+            <span class="spell-text">Nox</span>
+          </button>
+          <button id="sorting-hat-btn" class="action-btn" aria-label="Sorting Ceremony" title="Sort House">
+            🧙‍♂️ <span class="hat-text">Sort</span>
+          </button>
+        </div>
         <button class="menu-toggle" aria-label="Toggle menu">
           <span></span>
           <span></span>
@@ -43,23 +52,23 @@
       <section id="home" class="hero">
         <div class="container hero-container">
           <div class="hero-content">
-            <h2 class="greeting fade-in">Hello, I'm</h2>
+            <h2 class="greeting fade-in">Mischief Managed... Hello, I'm</h2>
             <h1 class="name fade-in" style="animation-delay: 0.1s">Bhargavi Thentu</h1>
-            <h3 class="role fade-in" style="animation-delay: 0.2s">Aspiring Software Developer | AI/ML & Web Development Enthusiast</h3>
+            <h3 class="role fade-in" style="animation-delay: 0.2s">Tech Alchemist | Weaving AI/ML & Web Development Spells</h3>
             <p class="bio-short fade-in" style="animation-delay: 0.3s">
-              Pre-final year IT student passionate about building intelligent and scalable solutions. 
-              Skilled in AI/ML, Web Development, and Cloud basics, aiming to secure impactful 
-              internship or job opportunities.
+              Final year Information Technology student passionate about brewing intelligent and scalable solutions. 
+              Skilled in AI/ML, Web Development, and Cloud basics, aiming to conjure impactful 
+              internship or job opportunities in the tech realm.
             </p>
             <div class="hero-cta fade-in" style="animation-delay: 0.4s">
-              <a href="#projects" class="btn btn-primary">View Projects</a>
-              <a href="#contact" class="btn btn-outline">Contact Me</a>
+              <a href="#projects" class="btn btn-primary">Inspect Artifacts</a>
+              <a href="#contact" class="btn btn-outline">Send Owl Post</a>
             </div>
           </div>
           <div class="hero-image fade-in" style="animation-delay: 0.5s">
             <div class="image-wrapper">
-              <!-- Placeholder for profile image, you can replace with a real image later -->
-              <img src="https://ui-avatars.com/api/?name=Bhargavi+Thentu&size=500&background=0a0a0a&color=00f0ff&font-size=0.33" alt="Bhargavi Thentu" />
+              <div class="magical-aura"></div>
+              <img src="/profile.png" alt="Bhargavi Thentu" />
             </div>
           </div>
         </div>
@@ -68,27 +77,27 @@
       <!-- About Section -->
       <section id="about" class="section">
         <div class="container">
-          <h2 class="section-title fade-in">About Me</h2>
+          <h2 class="section-title fade-in">The Marauder's Map (About Me)</h2>
           <div class="about-content fade-in">
             <div class="about-text">
               <p>
-                I am a pre-final year Information Technology student with a strong drive to learn and innovate. 
-                My journey in tech is fueled by a fascination with Artificial Intelligence, Machine Learning, and creating 
-                seamless web experiences. I love bridging the gap between intelligent backend logic and user-friendly 
-                frontend interfaces.
+                I am a final year Information Technology student with a strong drive to learn, innovate, and master new spells. 
+                My magical journey in tech is fueled by a deep fascination with Artificial Intelligence, Machine Learning, and crafting 
+                enchanting web experiences. I love bridging the gap between intelligent alchemical backends and beautiful, interactive 
+                frontends.
               </p>
               <p>
-                <strong>Career Goal:</strong> Seeking internship or full-time roles in software development, AI/ML, 
-                or web development where I can apply my skills to real-world challenges, continue to grow as an engineer, 
-                and bring value to impactful projects.
+                <strong>Wizarding Goal:</strong> Seeking internship or full-time roles in software development, AI/ML, 
+                or web engineering where I can apply my spells to solve real-world challenges, continue to grow, 
+                and bring magic to impactful projects.
               </p>
             </div>
-            <div class="education-card glass-card">
-              <h3>Education</h3>
+            <div class="education-card glass-card scroll-style">
+              <h3>Hogwarts Chronicles (Education)</h3>
               <div class="edu-item">
                 <h4>Bachelor of Technology (Information Technology)</h4>
                 <p class="institution">Vignan’s Institute of Information Technology</p>
-                <p class="date">Expected Graduation: 2027</p>
+                <p class="date">Enrollment Period: 2023 - 2027</p>
               </div>
             </div>
           </div>
@@ -98,7 +107,7 @@
       <!-- Skills Section -->
       <section id="skills" class="section bg-alt">
         <div class="container">
-          <h2 class="section-title fade-in">Technical Skills</h2>
+          <h2 class="section-title fade-in">Skills & Spellbook</h2>
           <div class="skills-grid fade-in">
             <div class="skill-category glass-card">
               <h3>Programming Languages</h3>
@@ -164,10 +173,26 @@
       <!-- Projects Section -->
       <section id="projects" class="section">
         <div class="container">
-          <h2 class="section-title fade-in">Featured Projects</h2>
+          <h2 class="section-title fade-in">Magical Artifacts (Projects)</h2>
           <div class="projects-grid">
-            <!-- Project 1 -->
+            <!-- Project: SmartHealth -->
             <div class="project-card glass-card fade-in">
+              <div class="project-info">
+                <h3>SmartHealth</h3>
+                <p>An intelligent healthcare management platform leveraging machine learning models to analyze patient health metrics, predict potential risk factors, and deliver personalized wellness recommendations for early diagnosis.</p>
+                <div class="project-tech">
+                  <span class="tag tech-tag">Python</span>
+                  <span class="tag tech-tag">Machine Learning</span>
+                  <span class="tag tech-tag">Flask</span>
+                  <span class="tag tech-tag">HTML/CSS/JS</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/bhargavithentu28/SmartHeath" target="_blank" class="btn btn-outline btn-small">GitHub</a>
+                </div>
+              </div>
+            </div>
+            <!-- Project 1 -->
+            <div class="project-card glass-card fade-in" style="animation-delay: 0.1s">
               <div class="project-info">
                 <h3>Skill Bridge AI</h3>
                 <p>AI-based platform to map user skills with industry requirements. Utilizes ML models for skill gap analysis and personalized recommendations to drive a data-driven matching system for opportunities.</p>
@@ -182,7 +207,7 @@
               </div>
             </div>
             <!-- Project 2 -->
-            <div class="project-card glass-card fade-in" style="animation-delay: 0.1s">
+            <div class="project-card glass-card fade-in" style="animation-delay: 0.2s">
               <div class="project-info">
                 <h3>Sentinel AI</h3>
                 <p>Mobile security system capable of detecting phishing, fake apps, and OTP malware. Employs real-time behavior analysis and fraud prevention algorithms to keep users safe.</p>
@@ -197,7 +222,7 @@
               </div>
             </div>
             <!-- Project 3 -->
-            <div class="project-card glass-card fade-in" style="animation-delay: 0.2s">
+            <div class="project-card glass-card fade-in" style="animation-delay: 0.3s">
               <div class="project-info">
                 <h3>AgriRent</h3>
                 <p>Full-stack web platform for renting agricultural equipment. Features user authentication, a comprehensive booking system, location-based search, and an integrated messaging service.</p>
@@ -218,8 +243,19 @@
       <!-- Experience Section -->
       <section id="experience" class="section bg-alt">
         <div class="container">
-          <h2 class="section-title fade-in">Experience</h2>
+          <h2 class="section-title fade-in">Wizarding Chronicles (Experience)</h2>
           <div class="timeline fade-in">
+            <div class="timeline-item glass-card">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>Prompt Engineer Intern</h3>
+                <h4 class="company">SkillCraft Technology</h4>
+                <p class="date">May 2026 - Jun 2026</p>
+                <p class="desc">
+                  Leveraged prompt engineering techniques to instruct and optimize large language models. Designed, tested, and optimized prompts to ensure high response accuracy, logical consistency, and seamless integration with application features.
+                </p>
+              </div>
+            </div>
             <div class="timeline-item glass-card">
               <div class="timeline-dot"></div>
               <div class="timeline-content">
@@ -238,7 +274,7 @@
       <!-- Services Section -->
       <section id="services" class="section">
         <div class="container">
-          <h2 class="section-title fade-in">Services</h2>
+          <h2 class="section-title fade-in">Alchemical Offerings (Services)</h2>
           <div class="services-grid fade-in">
             <div class="service-card glass-card">
               <div class="service-icon">🌐</div>
@@ -267,7 +303,7 @@
       <!-- Contact Section -->
       <section id="contact" class="section bg-alt">
         <div class="container">
-          <h2 class="section-title fade-in">Get In Touch</h2>
+          <h2 class="section-title fade-in">Send an Owl (Contact)</h2>
           <div class="contact-content">
             <div class="contact-info fade-in">
               <h3>Let's build something amazing!</h3>
@@ -305,9 +341,47 @@
 
     <footer>
       <div class="container footer-content">
-        <p>&copy; <span id="year"></span> Bhargavi Thentu. All rights reserved.</p>
+        <p>&copy; <span id="year"></span> Bhargavi Thentu. All rights reserved. | Mischief Managed 🪄</p>
         <a href="#home" class="scroll-top" aria-label="Scroll to top">↑</a>
       </div>
     </footer>
+
+    <!-- Wand Sparkle Canvas -->
+    <canvas id="wand-canvas"></canvas>
+
+    <!-- Sorting Ceremony Modal -->
+    <div id="sorting-modal" class="modal-overlay hidden">
+      <div class="sorting-card glass-card">
+        <button class="close-modal" id="close-sorting">&times;</button>
+        <div class="sorting-hat-icon">🧙‍♂️</div>
+        <h2>The Sorting Hat Ceremony</h2>
+        <p class="sorting-hat-quote">"Difficult. Very difficult. Plenty of courage, I see. Not a bad mind, either. There's talent, oh my goodness, yes — and a nice thirst to prove yourself... But where to put you?"</p>
+        
+        <div class="house-options">
+          <button class="house-btn gryffindor" data-house="gryffindor">
+            <div class="house-crest">🦁</div>
+            <span class="house-name">Gryffindor</span>
+          </button>
+          <button class="house-btn slytherin" data-house="slytherin">
+            <div class="house-crest">🐍</div>
+            <span class="house-name">Slytherin</span>
+          </button>
+          <button class="house-btn ravenclaw" data-house="ravenclaw">
+            <div class="house-crest">🦅</div>
+            <span class="house-name">Ravenclaw</span>
+          </button>
+          <button class="house-btn hufflepuff" data-house="hufflepuff">
+            <div class="house-crest">🦡</div>
+            <span class="house-name">Hufflepuff</span>
+          </button>
+        </div>
+
+        <div class="sorting-result hidden">
+          <div class="magical-divider">⚡</div>
+          <h3>You belong in... <span id="sorted-house-name">Gryffindor</span>!</h3>
+          <p id="house-desc"></p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
